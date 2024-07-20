@@ -12,3 +12,14 @@ En código se cambio el c_ind a y, debido a que se despeja la ecuación
 ### Funcione curva
 La función curva fue modificada para usar a2 * x**2 + a1 * x + a0, una función cuadrática</br>
 ![image.png](./assets/output.png)
+
+# Pregunta 10
+
+## Cambios
+### Función calc determinante:
+Se utiliza la función descomposición_LU y un ciclo for
+L, U  = descomposicion_LU(A)
+sumatoria = 1
+for i in range(len(U)):
+    sumatoria *= U[i][i]
+return sumatoria
