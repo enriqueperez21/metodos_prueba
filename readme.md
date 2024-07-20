@@ -17,9 +17,9 @@ La función curva fue modificada para usar a2 * x**2 + a1 * x + a0, una función
 
 ## Cambios
 ### Función calc determinante:
-Se utiliza la función descomposición_LU y un ciclo for
-L, U  = descomposicion_LU(A)
-sumatoria = 1
-for i in range(len(U)):
-    sumatoria *= U[i][i]
+Se utiliza la función descomposición_LU y un ciclo for</br>
+L, U  = descomposicion_LU(A)</br>
+sumatoria = 1</br>
+for i in range(len(U)):</br>
+    sumatoria *= U[i][i]</br>
 return sumatoria
